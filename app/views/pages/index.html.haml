@@ -1,0 +1,7 @@
+%h1 I AMA Web App.  Ask me anything!
+
+%ul
+  - @links.each do |link|
+    %li= link_to link.title, link.url
+
+= will_paginate @links
