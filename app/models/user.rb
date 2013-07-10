@@ -10,5 +10,5 @@ class User < ActiveRecord::Base
   attr_accessible :username
 
   has_many :links
-  has many :comments
+  has_many :comments
 end
